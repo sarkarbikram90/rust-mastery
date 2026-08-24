@@ -7,6 +7,7 @@ Use:
 ## Pull Requests
 
 - Keep PRs small
+- First git status, then git pull origin main, then git add . , then git commit -m "message", then git push origin main, then create PR on github
 - Explain what you learned
 - Link the related issue/resources
 - Make sure code builds and tests pass
