@@ -15,8 +15,8 @@
 ## Demo Day
 
 Every Saturday, each person shows:
-- what they built
-- what confused them
+- what we build
+- what confused us
 - one win
 
 ## Retro Questions
