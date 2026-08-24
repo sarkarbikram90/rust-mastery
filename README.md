@@ -16,25 +16,11 @@ Learn Rust deeply by building small real-world systems, pairing often, and keepi
 
 - Rust fundamentals
 
-## Repo Map
-
-- `projects/` — shared learning projects
-- `members/` — personal notes and sandboxes
-- `docs/concepts/` — shared Rust concept notes
-- `docs/session-notes/` — pairing session summaries
-- `docs/retros/` — weekly retrospectives
-- `WINS.md` — celebrations and progress
-
 ## How to Start
 
 1. Install Rust
 2. Clone this repo
-3. Read `docs/onboarding.md`
-4. Pick a task from the project board
-
-## Current Project
-
-- 02-guessing-game
+3. Read `contributing.md`
 
 ## Our Rules
 
