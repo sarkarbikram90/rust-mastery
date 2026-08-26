@@ -7,7 +7,9 @@ Use:
 ## Pull Requests
 
 - Keep PRs small
-- Always do a git pull before pushing
+- Always do git pull before pushing
+- do git status before pushing
+- Push changes to members/<yourname>/ folder only
 - Explain what you learned
 - Link the related issue/resources
 - Make sure code builds and tests pass
