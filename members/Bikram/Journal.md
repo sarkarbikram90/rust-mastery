@@ -10,6 +10,6 @@
 - Understood the concept of mutability in rust
 
 ## 2026-06-26
-- 
+- Understood onwership, borrowing and mut borrowing in rust
 
 
