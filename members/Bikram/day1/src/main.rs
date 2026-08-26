@@ -12,7 +12,10 @@
 
 fn main() {
     println!("Hello, world!");
- // let is for immutable variable, meaning the varibale value cannot be changed later   
+ // let is for immutable variable, 
+ // meaning the varibale value cannot be changed
+ // if we want to change the value of the variable, 
+ // we need to use let mut
 
     let day = "Monday";
     println!("Day: {}", day);
