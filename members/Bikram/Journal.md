@@ -12,4 +12,7 @@
 ## 2026-06-26
 - Understood onwership, borrowing and mut borrowing in rust
 
+## 2026-06-27
+- understood arithmetic operations in rust
+- understood how to write and call functions in rust
 
