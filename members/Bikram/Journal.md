@@ -16,3 +16,7 @@
 - understood arithmetic operations in rust
 - understood how to write and call functions in rust
 
+## 2026-06-28
+- understood how stack and heap works in rust
+
+
