@@ -6,9 +6,13 @@
 - Read through rust installation and setup
 - Learned how rust compiler(rustc) works
 - Learned how `cargo run` works
-<<<<<<< HEAD
 - Created a project and developed first rust program to check prime no
-=======
 - Struggled with mutability and references
 - Fixed my first compiler error by changing ownership
->>>>>>> f47af1f (add:day3)
+
+# Example
+## 2026-08-29
+- Learned how to store values with variables
+- dependencies initialization in toml and how to install them
+- Using Rand library in rust to generate any value randomly
+- Developed a guessing game program in rust
