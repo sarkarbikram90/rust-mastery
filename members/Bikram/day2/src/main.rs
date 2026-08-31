@@ -13,7 +13,7 @@ fn main() {
 // 'mut' is short for mutable
 
 fn main() {
-    let mut x = 5; // assign value 5
+    let mut x = 5; // assign value 5 with mut keyword
     println!("The value of x is: {x}");
     x = 6; // changing value to 6
     println!("The value of x is: {x}");
