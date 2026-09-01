@@ -21,4 +21,16 @@
 
 ## testing git workflow
 
+## 2026-09-01
+- understood data types in rust
+- discussed signed and unsigned integer in Rust
+- Integer types: i8, i16, i32, i64, i128, isize (signed), u8, u16, u32, u64, u128, usize (unsigned)
+
+- In Rust, by default, all integers are signed (i32).
+- **Signed integers**: Can represent positive and negative values (e.g., -10, 0, 10).
+- **Unsigned integers**: Can represent only positive values and zero (e.g., 0, 10).
+- **Range**: The size of the integer determines the range of values it can hold (e.g., u8 can hold 0-255, i8 can hold -128 to 127).
+
+
+
 
