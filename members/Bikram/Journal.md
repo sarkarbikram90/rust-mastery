@@ -31,6 +31,10 @@
 - **Unsigned integers**: Can represent only positive values and zero (e.g., 0, 10).
 - **Range**: The size of the integer determines the range of values it can hold (e.g., u8 can hold 0-255, i8 can hold -128 to 127).
 
+## Documentation is rust
+Refer to 
+https://www.kimi.ai/chat/1a063788-9922-837a-8000-09d7e199933c?chat_enter_method=new_chat
+
 
 
 
