@@ -16,3 +16,9 @@
 - dependencies initialization in toml and how to install them
 - Using Rand library in rust to generate any value randomly
 - Developed a guessing game program in rust
+
+# Example
+## 2026-08-31
+- Learned mutability, control flows, functions
+- Started learning on ownership rules.
+- Developed a program for understanding variable scope in rust.
