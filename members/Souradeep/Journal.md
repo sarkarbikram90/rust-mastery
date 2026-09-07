@@ -22,3 +22,10 @@
 - Learned mutability, control flows, functions
 - Started learning on ownership rules.
 - Developed a program for understanding variable scope in rust.
+
+# Example
+## 2026-09-03
+- Learned Ownership
+- Learned references and borrowing, mutable references
+- Developed a program to understand these concepts in detail
+
