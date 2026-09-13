@@ -18,8 +18,15 @@ fn main() {
     println!("The length of '{s1}' is {len}.");
 
     println!("s1 = {s1}, s2 = {s2}");
+
+    change(&mut s);
+    println!("s after change = {s}");
 }
 
 fn calculate_length(s: &String) -> usize {
     s.len()
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", souradeep");
 }
