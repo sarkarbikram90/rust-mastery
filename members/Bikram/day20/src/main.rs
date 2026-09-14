@@ -4,7 +4,7 @@
 // that allows you to compare a value
 // against a series of patterns and then
 // execute code based on which pattern matches.
-/*
+
 fn main() {
     let x = 1;
     match x {
@@ -26,7 +26,7 @@ fn plus_one(x: i32) -> i32 {
     }
 }
 
-*/
+
 // In this example,
 // match returns 1, 2, or 3
 // depending on the value of x.  
