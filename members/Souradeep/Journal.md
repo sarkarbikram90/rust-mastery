@@ -29,3 +29,9 @@
 - Learned references and borrowing, mutable references
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-09-10
+- Learned Dangling pointers, borrowing.
+- Learned about slices, string slices and other slices etc.
+- Developed a program to understand these concepts in detail
+
