@@ -35,3 +35,9 @@
 - Learned about slices, string slices and other slices etc.
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-09-18
+- Learned Structure, Methods
+- Learned about slices, string slices and other slices etc.
+- Developed a program to understand these concepts in detail
+
