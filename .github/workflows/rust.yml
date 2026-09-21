@@ -1,4 +1,4 @@
-name: Rust
+name: Rust CI
 
 on:
   push:
@@ -11,12 +11,20 @@ env:
 
 jobs:
   build:
-
+    name: Build & Test All Member Projects
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build
-      run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Discover and test all crates
+        run: |
+          find members -name "Cargo.toml" | sort | while read -r manifest; do
+            echo "::group::Testing $manifest"
+            cargo test --verbose --manifest-path "$manifest"
+            echo "::endgroup::"
+          done
