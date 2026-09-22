@@ -47,4 +47,10 @@
 - Tried to understand how to implement functions, multiple methods within a struct and access them.
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-09-22
+- Learned about enums and it's use cases in rust.
+- Learning about pattern matching, control flow etc.
+- Developed a program to understand these concepts in detail
+
 
