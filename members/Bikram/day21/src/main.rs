@@ -42,7 +42,7 @@ fn main() {
 */
 
 // Reading Elements of Vectors
-
+/*
 fn main() {
 
     let v = vec![1, 2, 3, 4, 5];        
@@ -57,7 +57,7 @@ fn main() {
     }
 
 }
-
+*/
     // We use the index value of 2 to 
     // get the third element 
     // because vectors are 
@@ -74,17 +74,21 @@ fn main() {
 // through all of the elements rather 
 // than use indices to access one at a time.
 
-let v = vec![100, 32, 57];
+fn main() {
+    let v = vec![100, 32, 57];
+
+    // Iterate over immutable references.
     for i in &v {
         println!("{i}");
     }
 
-// We can also iterate over 
-// mutable references to each element 
-// in a mutable vector in order to make 
-// changes to all the elements.
+    // Iterate over mutable references
+    // and modify each element.
+    let mut v = vec![100, 32, 57];
 
-let mut v = vec![100, 32, 57];
     for i in &mut v {
         *i += 50;
     }
+
+    println!("{v:?}");
+}
