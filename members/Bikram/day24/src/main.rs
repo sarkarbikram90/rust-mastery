@@ -26,6 +26,10 @@ mod tests {
     }
 }
 
+fn main(){
+    println!("Tests are great!");
+}
+
 // The cargo test command runs all tests in our project
 // and displays output similar to this:
 // refer to https://doc.rust-lang.org/book/ch11-01-writing-tests.html

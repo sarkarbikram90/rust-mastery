@@ -15,6 +15,11 @@ enum Message {
     ChangeColor(i32, i32, i32),
 }
 
+enum Option<T> {
+    Some(T),
+    None,
+}
+
 impl Message {
     fn call(&self) {
         // method body would be defined here
@@ -36,4 +41,14 @@ fn main() {
         kind: loopback,
         address: String::from("::1"),
     };
+
+    let some_number = Some(5);
+    let some_chars = Some('e');
+
+    let absent_number: Option<i32> = None;
+
+    let x: i8 = 5;
+    let y: Option<i8> = Some(5);
+
+    let sum = x + y
 }
