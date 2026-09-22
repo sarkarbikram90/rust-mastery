@@ -41,3 +41,10 @@
 - Tried to understand different way of implementing methods within struct
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-09-21
+- Learned Methods, it's -> operator, parameters and associated functions
+- Tried to understand how to implement functions, multiple methods within a struct and access them.
+- Developed a program to understand these concepts in detail
+
+
