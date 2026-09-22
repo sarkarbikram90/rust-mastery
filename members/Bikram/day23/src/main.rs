@@ -43,3 +43,6 @@
 // https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html
 // will continue tomorrow, exhausted after ofice work.
 
+fn main(){
+    println!("Modules are great!");
+}
