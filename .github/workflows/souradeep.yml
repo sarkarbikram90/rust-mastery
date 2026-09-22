@@ -1,0 +1,37 @@
+name: Souradeep Rust CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "members/Souradeep/**"
+      - ".github/workflows/souradeep.yml"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "members/Souradeep/**"
+      - ".github/workflows/souradeep.yml"
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    name: Test Souradeep Projects
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Test Souradeep crates
+        shell: bash
+        run: |
+          find members/Souradeep -name "Cargo.toml" | sort | while read -r manifest; do
+            echo "::group::Testing $manifest"
+            cargo test --verbose --manifest-path "$manifest"
+            echo "::endgroup::"
+          done
