@@ -53,4 +53,10 @@
 - Learning about pattern matching, control flow etc.
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-09-24
+- Learned about control flow of enums, pattern binding
+- Worked on understanding match control flow constructor
+- Developed a program to understand these concepts in detail
+
 
