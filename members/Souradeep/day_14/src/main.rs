@@ -1,9 +1,4 @@
-enum Coin {
-    Penny,
-    Nickel,
-    Dime,
-    Quarter,
-}
+use day_14::Coin;
 
 fn value_in_cents(coin: Coin) -> u8 {
     match coin {
@@ -13,7 +8,7 @@ fn value_in_cents(coin: Coin) -> u8 {
         }
         Coin::Nickel => 5,
         Coin::Dime => 10,
-        Coin::Quarter => 25,
+        Coin::Quarter(_) => 25,
     }
 }
 
