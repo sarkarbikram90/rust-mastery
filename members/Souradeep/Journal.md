@@ -59,4 +59,10 @@
 - Worked on understanding match control flow constructor
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-10-02
+- Learned about pattern matching and enums control flow
+- Worked on understanding catch all, match section of match control flow and concise control flow of the constructor
+- Developed a program to understand these concepts in detail
+
 
