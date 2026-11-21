@@ -65,4 +65,11 @@
 - Worked on understanding catch all, match section of match control flow and concise control flow of the constructor
 - Developed a program to understand these concepts in detail
 
+# Example
+## 2026-11-21
+- Learned about packages, crates and modules
+- Worked on learning control and privacy with modules, referencing to modules and calling them using path.
+- Worked on learning control and privacy with modules, referencing to modules and calling them using path.
+- Developed a program to understand these concepts in detail
+
 
